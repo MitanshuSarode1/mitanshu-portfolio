@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+# Mitanshu Sarode - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React.js, featuring dark/light mode toggle, smooth animations, and a professional design.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Dark/Light Mode**: Toggle between dark and light themes with smooth transitions
+- **Responsive Design**: Fully responsive across all device sizes
+- **Smooth Animations**: Beautiful animations using Framer Motion
+- **Modern UI**: Clean, professional design with Tailwind CSS
+- **Interactive Elements**: Hover effects, smooth scrolling, and interactive components
+- **Contact Form**: Functional contact form with validation
+- **Project Showcase**: Display of recent projects with live demos and GitHub links
+- **Skills Section**: Interactive skills display with progress bars
+- **Custom Logo**: SVG-based logo with theme-aware colors
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19.1.1** - Frontend framework
+- **Tailwind CSS 4.1.13** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
+- **React Icons** - Additional icon components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone https://github.com/MitanshuSarode1/mitanshu-portfolio.git
+cd mitanshu-portfolio
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Start the development server:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Customization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Personal Information
+Update your personal information in the following components:
+- `src/components/Hero.js` - Main hero section
+- `src/components/About.js` - About section and skills
+- `src/components/Contact.js` - Contact information
+- `src/components/Footer.js` - Footer information
 
-### `npm run eject`
+### Projects
+Add your projects in `src/components/Projects.js`:
+```javascript
+const projects = [
+  {
+    title: "Your Project Title",
+    description: "Project description",
+    image: "project-image-url",
+    technologies: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/yourusername/project",
+    live: "https://your-project-demo.com",
+    status: "Live", // or "Development"
+    type: "Web Development"
+  }
+];
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Skills
+Update your skills in `src/components/About.js`:
+```javascript
+const skills = [
+  { name: 'Your Skill', level: 90, icon: <YourIcon /> },
+  // Add more skills
+];
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Logo
+Customize the logo in `src/components/Logo.js`. The logo is built with SVG and automatically adapts to the current theme.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎯 Available Scripts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-## Learn More
+## 📱 Responsive Breakpoints
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌙 Theme System
 
-### Code Splitting
+The website includes a comprehensive theme system:
+- Automatic theme detection based on system preferences
+- Manual theme toggle in the header
+- Theme persistence using localStorage
+- Smooth transitions between themes
+- Theme-aware components throughout the site
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Deployment
 
-### Analyzing the Bundle Size
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Netlify
+1. Build the project: `npm run build`
+2. Upload the `build` folder to Netlify
+3. Configure redirects for SPA routing
 
-### Making a Progressive Web App
+### GitHub Pages
+1. Install gh-pages: `npm install --save-dev gh-pages`
+2. Add deploy script to package.json
+3. Run: `npm run deploy`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/MitanshuSarode1/mitanshu-portfolio/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📞 Contact
 
-### `npm run build` fails to minify
+- **Email**: mitanshupsarode@gmail.com / sarodemitanshu21@gmail.com
+- **Phone**: +91 9960856994
+- **GitHub**: [MitanshuSarode1](https://github.com/MitanshuSarode1)
+- **LinkedIn**: [Mitanshu Sarode](https://www.linkedin.com/in/mitanshu-sarode-33a803287/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgments
+
+- Design inspiration from modern portfolio websites
+- Icons by [Lucide](https://lucide.dev/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
+- Styling with [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+Made with ❤️ by Mitanshu Sarode
