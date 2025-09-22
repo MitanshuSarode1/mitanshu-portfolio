@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mitanshu-portfolio/static/css/main.cd56c07e.css",
+    "main.js": "/mitanshu-portfolio/static/js/main.0e3696ae.js",
+    "static/js/453.c10a1cec.chunk.js": "/mitanshu-portfolio/static/js/453.c10a1cec.chunk.js",
+    "index.html": "/mitanshu-portfolio/index.html",
+    "main.cd56c07e.css.map": "/mitanshu-portfolio/static/css/main.cd56c07e.css.map",
+    "main.0e3696ae.js.map": "/mitanshu-portfolio/static/js/main.0e3696ae.js.map",
+    "453.c10a1cec.chunk.js.map": "/mitanshu-portfolio/static/js/453.c10a1cec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd56c07e.css",
+    "static/js/main.0e3696ae.js"
+  ]
+}
