@@ -10,7 +10,7 @@ const Logo = ({ className = "", size = "w-12 h-12" }) => {
         isDarkMode ? 'bg-white/10' : 'bg-transparent'
       }`}>
         <img
-          src={`${process.env.PUBLIC_URL}/logo.png`}
+          src={`${process.env.PUBLIC_URL}/logo.png?v=2`}
           alt="Mitanshu Sarode Logo"
           className="w-full h-full object-contain"
           style={{

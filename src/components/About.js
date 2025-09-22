@@ -88,7 +88,7 @@ const About = () => {
                   }`}
                 >
                   <img
-                    src={`${process.env.PUBLIC_URL}/photo.jpg`}
+                    src={`${process.env.PUBLIC_URL}/photo.jpg?v=2`}
                     alt="Mitanshu Sarode"
                     className="w-full h-full object-cover"
                   />
