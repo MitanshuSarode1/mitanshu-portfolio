@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://MitanshuSarode1.github.io/mitanshu-portfolio",
+  "homepage": "https://mitanshusarode.com",
   "eslintConfig": {
     "extends": [
       "react-app",
